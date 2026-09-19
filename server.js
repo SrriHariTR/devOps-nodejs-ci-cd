@@ -9,7 +9,7 @@ app.get("/status", (req, res) => {
   });
 });
 
-app.get("/status", (req, res) => {
+app.get("/status1", (req, res) => {
     res.json({
         status: "Application updated successfully"
     });
