@@ -9,6 +9,12 @@ app.get("/status", (req, res) => {
   });
 });
 
+app.get("/status", (req, res) => {
+    res.json({
+        status: "Application updated successfully"
+    });
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
